@@ -1,0 +1,130 @@
+
+/*============= GLOBALS =============*/
+
+/*
+black: #3D4647
+grey: #C6C6C6
+white: #FFFDF9
+orange: #E2864D
+tan: #C6C5B9
+blue: #62929E
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans:300,400');
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Dosis', sans-serif;
+*/
+
+/*============= NAVBAR =============*/
+
+.navbar {
+  background-color: #394648;
+}
+
+/*NAV-TEXT*/
+.navbar-default .nav-text, .navbar-default .navbar-nav>li>a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  color: #C6C5B9;
+}
+
+/*ACTIVE*/
+.navbar-default .navbar-nav>li>a:focus {
+  color: #E2864D;
+}
+
+/*HOVER*/
+.navbar-default .nav-text:hover, .navbar-default .navbar-nav>li>.nav-text:hover {
+  color: #FFFDF9;
+}
+
+/*DROP DOWN - ACTIVE*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background: none;
+  border: none;
+  color: #FFFDF9;
+}
+
+
+
+/*============= HEADING =============*/
+
+.heading {
+  margin: 50px auto;
+  font-family: 'Dosis', sans-serif;
+  font-size: 5em;
+  color: #3D4647;
+}
+
+/*============= CONTENT =============*/
+
+.content-block {
+  margin-bottom: 50px;
+}
+
+.point {
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .point {
+    text-align: left;
+    border-bottom: 2px solid #E2864D;
+  }
+}
+
+.point h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  color: #E2864D;
+}
+
+.concepts ul {
+  margin-top: 15px;
+}
+
+.concepts li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  list-style: none;
+  color: #3D4647;
+  font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.*/
