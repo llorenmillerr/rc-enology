@@ -16,6 +16,8 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Dosis', sans-serif;
 */
 
+
+
 /*============= NAVBAR =============*/
 
 .navbar {
@@ -35,7 +37,7 @@ font-family: 'Dosis', sans-serif;
 }
 
 /*HOVER*/
-.navbar-default .nav-text:hover, .navbar-default .navbar-nav>li>.nav-text:hover {
+.navbar-default .nav-text:hover, .navbar-default .navbar-nav>li>.nav-text:hover, .navbar-default .navbar-brand:focus {
   color: #FFFDF9;
 }
 
@@ -93,9 +95,53 @@ font-family: 'Dosis', sans-serif;
   font-size: 2em;
 }
 
+/*============== FOOTER ==============*/
 
+footer {
+  height: 100px;
+  background-color: #E2864D;
+}
 
+.foot {
+  padding: 17px 20px 0 20px;
 
+}
+
+#logo {
+  width: 60%;
+  margin-left: 70px;
+}
+
+address {
+  text-align: center;
+  color: #FFFDF9;
+  border-left: 1px solid #c17241;
+  border-right: 1px solid #c17241;
+}
+
+footer p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #FFFDF9;
+  display: inline-block;
+}
+
+.social {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer a {
+  text-align: center;
+  font-size: 32px;
+  color: #FFFDF9;
+  margin: 10px;
+}
+
+footer a:hover {
+  color: #C6C5B9;
+  text-decoration: none;
+}
 
 
 
